@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(./bg.jpeg) no-repeat center center fixed;
+  background-size: 100vw 100vh;
+}
+.container {
+  color: white;
+  position: absolute;
+  top: 20%;
+  left: 45%;
+}
+.container h1 {
+  font-family: "Alkatra", cursive;
+  font-size: 50px;
+  border-bottom: 5px solid rgb(136, 41, 136);
+  margin-bottom: 10px;
+  padding: 13px 0;
+  display: inline-block;
+}
+.box {
+  width: 100%;
+  border-bottom: 2px solid rgb(146, 58, 146);
+  /* border: 2px solid purple; */
+  margin: 30px 0px;
+}
+.box input {
+  font-family: "Alkatra", cursive;
+  background: none;
+  width: 75%;
+  padding: 5px 2px;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 20px;
+}
+.box i {
+  /* padding: 0 11px; */
+  width: 28px;
+  /* float: left; */
+  text-align: center;
+}
+.btn {
+  cursor: pointer;
+  outline: none;
+  font-family: "Alkatra", cursive;
+  width: 125px;
+  margin: 12px 0px;
+  padding: 10px 21px;
+  border-radius: 10px;
+  border: 2px solid purple;
+  font-size: 20px;
+  background: none;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.btn:hover {  
+  opacity: 0.5;
+  color: purple;
+  background-color: white;
+}
